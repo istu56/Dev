@@ -117,7 +117,7 @@ API_KEY=your-api-key-here
    ```
 4. **Clone the Repository**
    ```bash
-   git clone https://github.com/CyberPixelPro/AviaxMusic && cd AviaxMusic
+   git clone https://github.com/ITZ-VAMPIRE07/VAMPIRE-MUSICV2 && cd VAMPIRE-MUSICV2
    ```
 5. **Install Requirements**
    ```bash
