@@ -139,7 +139,7 @@ async def start_gp(client, message: Message, _):
     await add_served_chat(message.chat.id)
 
 
-@app.on_callback_query(filters.regex("^api_console$"))
+#@app.on_callback_query(filters.regex("^api_console$"))
 async def api_console_cb(client, query: CallbackQuery):
     await query.message.edit_caption(
         caption="""
@@ -199,7 +199,7 @@ Use the console below 👇
             ]
         ),
     )
-    await query.answer()
+    await query.answer()#
 
 @app.on_callback_query(filters.regex("^back_to_start$"))
 async def back_to_start_cb(client, query: CallbackQuery):
@@ -266,3 +266,4 @@ async def welcome(client, message: Message):
         except Exception as ex:
 
             print(ex)
+
